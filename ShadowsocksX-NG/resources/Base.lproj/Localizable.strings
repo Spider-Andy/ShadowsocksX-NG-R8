@@ -95,3 +95,6 @@
 "Export Command Copied." = "Export Command Copied.";
 
 "Export Command Copied Failed." = "Export Command Copied Failed.";
+
+
+"network" = "Export";

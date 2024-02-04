@@ -43,7 +43,7 @@
 		9B3FFF541D09E2D10019A709 /* proxy_conf_helper in Resources */ = {isa = PBXBuildFile; fileRef = 9B3FFF441D09CD3B0019A709 /* proxy_conf_helper */; };
 		9BA04B231D23D5A5005AAD7F /* ProxyConfTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA04B221D23D5A5005AAD7F /* ProxyConfTool.m */; };
 		9BB706A71D1B982300551F0E /* SWBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB706A51D1B982300551F0E /* SWBApplication.m */; };
-		9BC70EDC1D2E3E3100EDA4CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B172A6C1D0ADDDD00B87B9A /* Localizable.strings */; };
+		9BC70EDC1D2E3E3100EDA4CA /* (null) in Resources */ = {isa = PBXBuildFile; };
 		9BE8FBBF1D0B211600CAFD01 /* libcrypto.1.0.0.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8FBBD1D0B1FB900CAFD01 /* libcrypto.1.0.0.dylib */; };
 		9BEEF0691D04D4D500FC52B3 /* install_ss_local.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9BEEF0651D04CB8500FC52B3 /* install_ss_local.sh */; };
 		9BEEF06A1D04D4D500FC52B3 /* start_ss_local.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9BEEF0661D04CE8D00FC52B3 /* start_ss_local.sh */; };
@@ -69,6 +69,9 @@
 		C6D429961DA75988002A5711 /* start_privoxy.sh in Resources */ = {isa = PBXBuildFile; fileRef = C6D429911DA75988002A5711 /* start_privoxy.sh */; };
 		C6D429971DA75988002A5711 /* stop_privoxy.sh in Resources */ = {isa = PBXBuildFile; fileRef = C6D429921DA75988002A5711 /* stop_privoxy.sh */; };
 		C6D429991DA76FBC002A5711 /* privoxy.config.example in Resources */ = {isa = PBXBuildFile; fileRef = C6D429981DA76FBC002A5711 /* privoxy.config.example */; };
+		E56E2D452B58D5EB003797AC /* resources in Resources */ = {isa = PBXBuildFile; fileRef = E56E2D432B58D5EB003797AC /* resources */; };
+		E595AE5A2B5632F600483987 /* StatusItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E595AE562B5632F600483987 /* StatusItemView.swift */; };
+		E5E7E7EA2B5E5DA4009F457D /* StatusItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E7E7E82B5E5DA4009F457D /* StatusItemView.xib */; };
 		E8650520243D96D30089706A /* libpcre.1.dylib in Resources */ = {isa = PBXBuildFile; fileRef = E8650519243D95E00089706A /* libpcre.1.dylib */; };
 		E8B5698A2456C900001DA9A7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B569892456C900001DA9A7 /* Network.swift */; };
 		E8CD016C23726D14006CB1F6 /* ToastWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD016B23726D14006CB1F6 /* ToastWindowController.swift */; };
@@ -119,7 +122,6 @@
 
 /* Begin PBXFileReference section */
 		083BF8351D82742200831C68 /* PingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingClient.swift; sourceTree = "<group>"; };
-		085641E91D7188C400116B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		08635C761EF750FA00F1D25E /* SubscribeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeManager.swift; sourceTree = "<group>"; };
 		086A31461F1AF797004C7285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SubscribePreferenceWindowController.xib; sourceTree = "<group>"; };
 		0877D6531EF1E65600126865 /* Subscribe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscribe.swift; sourceTree = "<group>"; };
@@ -127,13 +129,13 @@
 		0880CE3F1D6FE6D900BD39E2 /* example-gui-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "example-gui-config.json"; sourceTree = "<group>"; };
 		088EC3961D5F5B8600E40791 /* whitelist.pac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whitelist.pac; sourceTree = "<group>"; };
 		088EC3981D5F5BA300E40791 /* whiteiplist.pac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whiteiplist.pac; sourceTree = "<group>"; };
-		08AF56C01D6AFA7C00DC4F46 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PreferencesWindowController.strings"; sourceTree = "<group>"; };
+		08AF56C01D6AFA7C00DC4F46 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "resources/zh-Hans.lproj/PreferencesWindowController.strings"; sourceTree = "<group>"; };
 		08BDBB471E2361BD00C4BBC2 /* VersionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionChecker.swift; sourceTree = "<group>"; };
 		08CF21451E2A730E008F235D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		08F162BD1EBEDF0100C52869 /* chn.acl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chn.acl; sourceTree = "<group>"; };
 		08F162BF1EBEE6F800C52869 /* backchn.acl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backchn.acl; sourceTree = "<group>"; };
 		08F162C11EBEEC0F00C52869 /* gfwlist.acl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gfwlist.acl; sourceTree = "<group>"; };
-		0AB75A6D229E9DD0009D0748 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SubscribePreferenceWindowController.strings"; sourceTree = "<group>"; };
+		0AB75A6D229E9DD0009D0748 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "resources/zh-Hans.lproj/SubscribePreferenceWindowController.strings"; sourceTree = "<group>"; };
 		168D9B6E0133D852A5F3F791 /* libPods-proxy_conf_helper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proxy_conf_helper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483228B0E4F999EC8C56A355 /* Pods-proxy_conf_helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proxy_conf_helper.release.xcconfig"; path = "Target Support Files/Pods-proxy_conf_helper/Pods-proxy_conf_helper.release.xcconfig"; sourceTree = "<group>"; };
 		6618B10B340A3D7A925E0A9F /* Pods_ShadowsocksX_NGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowsocksX_NGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,8 +149,6 @@
 		9B0BFFEA1D0460A70040E62B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0BFFED1D0460A70040E62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9B0BFFEF1D0460A70040E62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B172A601D0ADA5B00B87B9A /* genstrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = genstrings.py; sourceTree = "<group>"; };
-		9B172A6D1D0ADDE800B87B9A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9B2491B51D0ACC3A003BBECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreferencesWindowController.xib; sourceTree = "<group>"; };
 		9B3FFF0C1D05FEB30019A709 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9B3FFF131D0705810019A709 /* NotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
@@ -189,8 +189,7 @@
 		BE492023242F412900A6C78E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		BE492024242F412900A6C78E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		BE5F99302472C3F40087A065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingsWindowController.xib; sourceTree = "<group>"; };
-		BE5F99342472C3F90087A065 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SettingsWindowController.strings"; sourceTree = "<group>"; };
-		BE5F99382472D8700087A065 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		BE5F99342472C3F90087A065 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "resources/zh-Hans.lproj/SettingsWindowController.strings"; sourceTree = "<group>"; };
 		BE61A1E0245BFE8E0007FB64 /* SpeedTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTools.swift; sourceTree = "<group>"; };
 		BE6B3C86246AD950000286B0 /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
 		BE6B3C89246AE294000286B0 /* ModeSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSwitcher.swift; sourceTree = "<group>"; };
@@ -205,6 +204,10 @@
 		C6D429911DA75988002A5711 /* start_privoxy.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = start_privoxy.sh; sourceTree = "<group>"; };
 		C6D429921DA75988002A5711 /* stop_privoxy.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = stop_privoxy.sh; sourceTree = "<group>"; };
 		C6D429981DA76FBC002A5711 /* privoxy.config.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privoxy.config.example; sourceTree = "<group>"; };
+		E56E2D432B58D5EB003797AC /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		E595AE562B5632F600483987 /* StatusItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItemView.swift; sourceTree = "<group>"; };
+		E5E7E7E82B5E5DA4009F457D /* StatusItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusItemView.xib; sourceTree = "<group>"; };
+		E5E7E7EB2B5E5E97009F457D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "resources/zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
 		E8650519243D95E00089706A /* libpcre.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpcre.1.dylib; sourceTree = "<group>"; };
 		E8B569892456C900001DA9A7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E8CD016B23726D14006CB1F6 /* ToastWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastWindowController.swift; sourceTree = "<group>"; };
@@ -268,7 +271,6 @@
 				C6D429921DA75988002A5711 /* stop_privoxy.sh */,
 				E8F9108D2421BC0B005E69E6 /* remove_privoxy.sh */,
 				9BE8FBBD1D0B1FB900CAFD01 /* libcrypto.1.0.0.dylib */,
-				9B172A6C1D0ADDDD00B87B9A /* Localizable.strings */,
 				9B3FFF4B1D09D8F70019A709 /* install_helper.sh */,
 				0880CE3F1D6FE6D900BD39E2 /* example-gui-config.json */,
 				9B3FFF281D08A1DF0019A709 /* user-rule.txt */,
@@ -294,7 +296,6 @@
 			isa = PBXGroup;
 			children = (
 				9833501C242C4E2600F947A4 /* LaunchAtLoginHelper.xcodeproj */,
-				9B172A601D0ADA5B00B87B9A /* genstrings.py */,
 				9B0BFFE71D0460A70040E62B /* ShadowsocksX-NG */,
 				9B3FFF451D09CD3B0019A709 /* proxy_conf_helper */,
 				9B0BFFE61D0460A70040E62B /* Products */,
@@ -315,7 +316,9 @@
 		9B0BFFE71D0460A70040E62B /* ShadowsocksX-NG */ = {
 			isa = PBXGroup;
 			children = (
+				E56E2D432B58D5EB003797AC /* resources */,
 				9BB706A51D1B982300551F0E /* SWBApplication.m */,
+				E595AE3F2B5631BC00483987 /* Views */,
 				9BB706A61D1B982300551F0E /* SWBApplication.h */,
 				9B3FFF511D09DBA20019A709 /* ShadowsocksX-NG-Bridging-Header.h */,
 				BE492020242F411400A6C78E /* tcping */,
@@ -323,9 +326,9 @@
 				9B07EFB01D048E900052D9DF /* Support Files */,
 				9B0BFFE81D0460A70040E62B /* AppDelegate.swift */,
 				BEAA0EDC244B273A00809ADD /* MainMenuManager.swift */,
-				9B0BFFEC1D0460A70040E62B /* MainMenu.xib */,
 				9BEEF06D1D04DCE400FC52B3 /* ServerProfile.swift */,
 				9BEEF06F1D04DDB100FC52B3 /* ServerProfileManager.swift */,
+				9B0BFFEC1D0460A70040E62B /* MainMenu.xib */,
 				0877D6531EF1E65600126865 /* Subscribe.swift */,
 				08635C761EF750FA00F1D25E /* SubscribeManager.swift */,
 				08BDBB471E2361BD00C4BBC2 /* VersionChecker.swift */,
@@ -400,6 +403,23 @@
 				168D9B6E0133D852A5F3F791 /* libPods-proxy_conf_helper.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E595AE3F2B5631BC00483987 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E595AE412B56322F00483987 /* StatusItem */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E595AE412B56322F00483987 /* StatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7E7E82B5E5DA4009F457D /* StatusItemView.xib */,
+				E595AE562B5632F600483987 /* StatusItemView.swift */,
+			);
+			path = StatusItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,12 +552,14 @@
 				9B3FFF271D0898EB0019A709 /* gfwlist.txt in Resources */,
 				C6D429931DA75988002A5711 /* install_privoxy.sh in Resources */,
 				08F162BE1EBEDF0100C52869 /* chn.acl in Resources */,
-				9BC70EDC1D2E3E3100EDA4CA /* Localizable.strings in Resources */,
+				9BC70EDC1D2E3E3100EDA4CA /* (null) in Resources */,
 				088EC3971D5F5B8600E40791 /* whitelist.pac in Resources */,
+				E56E2D452B58D5EB003797AC /* resources in Resources */,
 				9B0BFFEE1D0460A70040E62B /* MainMenu.xib in Resources */,
 				9B3FFF4C1D09D8F70019A709 /* install_helper.sh in Resources */,
 				C6D429961DA75988002A5711 /* start_privoxy.sh in Resources */,
 				E8CD016E23726D6C006CB1F6 /* ToastWindowController.xib in Resources */,
+				E5E7E7EA2B5E5DA4009F457D /* StatusItemView.xib in Resources */,
 				9B07EFA71D048BBB0052D9DF /* ss-local in Resources */,
 				088EC3991D5F5BA300E40791 /* whiteiplist.pac in Resources */,
 			);
@@ -628,6 +650,7 @@
 				9B3FFF211D08826E0019A709 /* PACUtils.swift in Sources */,
 				9B3FFF141D0705810019A709 /* NotificationName.swift in Sources */,
 				BE61A1E1245BFE8E0007FB64 /* SpeedTools.swift in Sources */,
+				E595AE5A2B5632F600483987 /* StatusItemView.swift in Sources */,
 				9BEEF0701D04DDB100FC52B3 /* ServerProfileManager.swift in Sources */,
 				08635C771EF750FA00F1D25E /* SubscribeManager.swift in Sources */,
 				BE6B3C87246AD950000286B0 /* Shortcuts.swift in Sources */,
@@ -677,18 +700,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B0BFFED1D0460A70040E62B /* Base */,
-				BE5F99382472D8700087A065 /* zh-Hans */,
+				E5E7E7EB2B5E5E97009F457D /* zh-Hans */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		9B172A6C1D0ADDDD00B87B9A /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B172A6D1D0ADDE800B87B9A /* zh-Hans */,
-				085641E91D7188C400116B27 /* Base */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		9B2491B61D0ACC3A003BBECC /* PreferencesWindowController.xib */ = {
@@ -830,7 +844,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4J772T4V7C;
+				DEVELOPMENT_TEAM = GUQK3HNB54;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libcork/include/",
@@ -869,7 +883,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4J772T4V7C;
+				DEVELOPMENT_TEAM = GUQK3HNB54;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libcork/include/",

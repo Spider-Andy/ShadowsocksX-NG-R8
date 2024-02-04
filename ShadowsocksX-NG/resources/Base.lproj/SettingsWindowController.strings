@@ -1,0 +1,189 @@
+
+/* Class = "NSWindow"; title = "Setting"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Setting";
+
+/* Class = "NSTabViewItem"; label = "General"; ObjectID = "uNf-rx-gUG"; */
+"uNf-rx-gUG.label" = "General";
+
+/* Class = "NSButtonCell"; title = "Check Updates At Launch"; ObjectID = "lJH-Oy-FC3"; */
+"lJH-Oy-FC3.title" = "Check Updates At Launch";
+
+/* Class = "NSButtonCell"; title = "Update Subscribe At Launch"; ObjectID = "bH8-Ib-NwG"; */
+"bH8-Ib-NwG.title" = "Update Subscribe At Launch";
+
+/* Class = "NSButtonCell"; title = "Connect At Launch"; ObjectID = "d3q-3O-V8q"; */
+"d3q-3O-V8q.title" = "Connect At Launch";
+
+/* Class = "NSButtonCell"; title = "Launch At Login"; ObjectID = "vXz-hQ-FUf"; */
+"vXz-hQ-FUf.title" = "Launch At Login";
+
+/* Class = "NSTextFieldCell"; title = "Login Options :"; ObjectID = "MSA-rS-Fji"; */
+"MSA-rS-Fji.title" = "Login Options :";
+
+/* Class = "NSTextFieldCell"; title = "Toggle Shadowsocks On/Off:"; ObjectID = "rTu-ur-Wd0"; */
+"rTu-ur-Wd0.title" = "Toggle Shadowsocks On/Off:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To PAC Mode:"; ObjectID = "acg-vD-SS1"; */
+"acg-vD-SS1.title" = "Switch To PAC Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To Global Mode:"; ObjectID = "ZDH-sv-HWf"; */
+"ZDH-sv-HWf.title" = "Switch To Global Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To WhiteList Mode:"; ObjectID = "g7d-HW-K5l"; */
+"g7d-HW-K5l.title" = "Switch To WhiteList Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To Manual Mode:"; ObjectID = "R4F-Gp-eOq"; */
+"R4F-Gp-eOq.title" = "Switch To Manual Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To ACL Auto Mode:"; ObjectID = "8aG-TZ-tAg"; */
+"8aG-TZ-tAg.title" = "Switch To ACL Auto Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Switch To Proxy Back China Mode:"; ObjectID = "uDU-UN-AhL"; */
+"uDU-UN-AhL.title" = "Switch To Proxy Back China Mode:";
+
+/* Class = "NSTextFieldCell"; title = "Shortcuts Options :"; ObjectID = "nVU-tW-NRQ"; */
+"nVU-tW-NRQ.title" = "Shortcuts Options :";
+
+/* Class = "NSTabViewItem"; label = "Advanced"; ObjectID = "89p-8l-Uxg"; */
+"89p-8l-Uxg.label" = "Advanced";
+
+/* Class = "NSTextFieldCell"; title = "Don't change these preferences if you have no idea what they are."; ObjectID = "a3m-14-Ylw"; */
+"a3m-14-Ylw.title" = "Don't change these preferences if you have no idea what they are.";
+
+/* Class = "NSTextFieldCell"; title = "Local Socks5 Listen Port:"; ObjectID = "LqX-MT-2pM"; */
+"LqX-MT-2pM.title" = "Local Socks5 Listen Port:";
+
+/* Class = "NSTextFieldCell"; title = "Local Socks5 Listen Address:"; ObjectID = "Ks1-zg-TtE"; */
+"Ks1-zg-TtE.title" = "Local Socks5 Listen Address:";
+
+/* Class = "NSTextFieldCell"; title = "Timeout:"; ObjectID = "Cjn-Kv-zQg"; */
+"Cjn-Kv-zQg.title" = "Timeout:";
+
+/* Class = "NSButtonCell"; title = "Enable Udp Replay"; ObjectID = "Mkk-VI-Ghc"; */
+"Mkk-VI-Ghc.title" = "Enable Udp Replay";
+
+/* Class = "NSTextFieldCell"; title = "Seconds"; ObjectID = "ltX-jC-jst"; */
+"ltX-jC-jst.title" = "Seconds";
+
+/* Class = "NSButtonCell"; title = "Enable Verbose Mode"; ObjectID = "08h-Vy-lwo"; */
+"08h-Vy-lwo.title" = "Enable Verbose Mode";
+
+/* Class = "NSTextFieldCell"; title = "Local PAC Listen Address:"; ObjectID = "3Mm-G2-f8g"; */
+"3Mm-G2-f8g.title" = "Local PAC Listen Address:";
+
+/* Class = "NSTextFieldCell"; title = "Local PAC Listen Port:"; ObjectID = "wdw-cm-QdI"; */
+"wdw-cm-QdI.title" = "Local PAC Listen Port:";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "B9U-aK-NNj"; */
+"B9U-aK-NNj.title" = "Save";
+
+/* Class = "NSTabViewItem"; label = "HTTP"; ObjectID = "MFd-Rl-0zu"; */
+"MFd-Rl-0zu.label" = "HTTP";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "jy0-B8-kTJ"; */
+"jy0-B8-kTJ.title" = "Save";
+
+/* Class = "NSButtonCell"; title = "HTTP Proxy Enable"; ObjectID = "CXZ-Hq-GQQ"; */
+"CXZ-Hq-GQQ.title" = "HTTP Proxy Enable";
+
+/* Class = "NSButtonCell"; title = "Follow Global Mode"; ObjectID = "iMv-Y5-e2F"; */
+"iMv-Y5-e2F.title" = "Follow Global Mode";
+
+/* Class = "NSTextFieldCell"; title = "HTTP Proxy Listen Address:"; ObjectID = "ZKw-UU-29H"; */
+"ZKw-UU-29H.title" = "HTTP Proxy Listen Address:";
+
+/* Class = "NSTextFieldCell"; title = "HTTP Proxy Listen Port:"; ObjectID = "Mf0-HP-koA"; */
+"Mf0-HP-koA.title" = "HTTP Proxy Listen Port:";
+
+/* Class = "NSTabViewItem"; label = "Hardware"; ObjectID = "Yi7-u3-2ju"; */
+"Yi7-u3-2ju.label" = "Hardware";
+
+/* Class = "NSButtonCell"; title = "Check"; ObjectID = "Vft-I6-KQf"; */
+"Vft-I6-KQf.title" = "Check";
+
+/* Class = "NSButtonCell"; title = "Auto Configure"; ObjectID = "CtD-y4-yxh"; */
+"CtD-y4-yxh.title" = "Auto Configure";
+
+/* Class = "NSTextFieldCell"; title = "Bypass proxy settings for these Hosts & Domains:"; ObjectID = "fQa-8a-rwc"; */
+"fQa-8a-rwc.title" = "Bypass proxy settings for these Hosts & Domains:";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "99V-14-mK8"; */
+"99V-14-mK8.title" = "Save";
+
+/* Class = "NSTabViewItem"; label = "Rule"; ObjectID = "dKi-ch-l5g"; */
+"dKi-ch-l5g.label" = "Rule";
+
+/* Class = "NSTextFieldCell"; title = "PAC GFW List URL:"; ObjectID = "rvB-gv-JKm"; */
+"rvB-gv-JKm.title" = "PAC GFW List URL:";
+
+/* Class = "NSTextFieldCell"; title = "ACL White List URL:"; ObjectID = "dTG-xh-fjV"; */
+"dTG-xh-fjV.title" = "ACL White List URL:";
+
+/* Class = "NSTextFieldCell"; title = "ACL Auto List URL:"; ObjectID = "xro-0Z-IGS"; */
+"xro-0Z-IGS.title" = "ACL Auto List URL:";
+
+/* Class = "NSTextFieldCell"; title = "ACL Back China URL:"; ObjectID = "eFX-gh-xCk"; */
+"eFX-gh-xCk.title" = "ACL Back China URL:";
+
+/* Class = "NSButtonCell"; title = "Update PAC List"; ObjectID = "jYU-Av-0dE"; */
+"jYU-Av-0dE.title" = "Update PAC List";
+
+/* Class = "NSButtonCell"; title = "Update ACL List"; ObjectID = "Vdf-8c-Ddk"; */
+"Vdf-8c-Ddk.title" = "Update ACL List";
+
+/* Class = "NSTextFieldCell"; title = "User Rules For PAC:"; ObjectID = "Z8S-VK-lq8"; */
+"Z8S-VK-lq8.title" = "User Rules For PAC:";
+
+/* Class = "NSButtonCell"; title = "Save User Rules"; ObjectID = "yjA-ES-vS8"; */
+"yjA-ES-vS8.title" = "Save User Rules";
+
+/* Class = "NSTabViewItem"; label = "Other"; ObjectID = "bC1-aW-nxd"; */
+"bC1-aW-nxd.label" = "Other";
+
+/* Class = "NSButtonCell"; title = "Ascending By Delay"; ObjectID = "EZP-q3-JHP"; */
+"EZP-q3-JHP.title" = "Ascending By Delay";
+
+/* Class = "NSTextFieldCell"; title = "Network Speed Test Options :"; ObjectID = "jY8-PA-A9U"; */
+"jY8-PA-A9U.title" = "Network Speed Test Options :";
+
+/* Class = "NSTextFieldCell"; title = "Delay Test Method"; ObjectID = "tHX-Lc-DLi"; */
+"tHX-Lc-DLi.title" = "Delay Test Method";
+
+/* Class = "NSButtonCell"; title = "Speed ​​Test After Subscription"; ObjectID = "hes-KD-3Ms"; */
+"hes-KD-3Ms.title" = "Speed ​​Test After Subscription";
+
+/* Class = "NSButtonCell"; title = "Show Network Speed"; ObjectID = "pMa-Yv-8Ge"; */
+"pMa-Yv-8Ge.title" = "Show Network Speed";
+
+/* Class = "NSButtonCell"; title = "Fixed Network Speed View Width"; ObjectID = "vGI-Wr-YvU"; */
+"vGI-Wr-YvU.title" = "Fixed Network Speed View Width";
+
+/* Class = "NSButtonCell"; title = "Remove Node After Delete Subscription"; ObjectID = "k84-Yv-ZeI"; */
+"k84-Yv-ZeI.title" = "Remove Node After Delete Subscription";
+
+/* Class = "NSButtonCell"; title = "Auto Update Subscription With Proxy"; ObjectID = "OO0-N2-l9l"; */
+"OO0-N2-l9l.title" = "Auto Update Subscription With Proxy";
+
+/* Class = "NSButtonCell"; title = "Servers List Show Server And Port"; ObjectID = "PH6-7d-hO8"; */
+"PH6-7d-hO8.title" = "Servers List Show Server And Port";
+
+/* Class = "NSTextFieldCell"; title = "Other Options :"; ObjectID = "V0z-8h-am2"; */
+"V0z-8h-am2.title" = "Other Options :";
+
+/* Class = "NSToolbarItem"; label = "General"; ObjectID = "w0N-kL-X0c"; */
+"w0N-kL-X0c.label" = "General";
+
+/* Class = "NSToolbarItem"; label = "Advanced"; ObjectID = "kbd-0t-ip1"; */
+"kbd-0t-ip1.label" = "Advanced";
+
+/* Class = "NSToolbarItem"; label = "HTTP"; ObjectID = "UbZ-Ci-teR"; */
+"UbZ-Ci-teR.label" = "HTTP";
+
+/* Class = "NSToolbarItem"; label = "Rule"; ObjectID = "7bq-Kd-ZzF"; */
+"7bq-Kd-ZzF.label" = "Rule";
+
+/* Class = "NSToolbarItem"; label = "System"; ObjectID = "ixm-C5-Vp1"; */
+"ixm-C5-Vp1.label" = "System";
+
+/* Class = "NSToolbarItem"; label = "Other"; ObjectID = "63Z-89-8Hk"; */
+"63Z-89-8Hk.label" = "Other";

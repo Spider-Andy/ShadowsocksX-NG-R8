@@ -21,7 +21,8 @@ class SpeedTools {
         paragraphStyle.alignment = .right
         return [
             NSAttributedString.Key.font : NSFont.monospacedDigitSystemFont(ofSize: 9, weight: NSFont.Weight.medium),
-            NSAttributedString.Key.paragraphStyle: paragraphStyle
+            NSAttributedString.Key.paragraphStyle: paragraphStyle,
+            NSAttributedString.Key.baselineOffset: -4,
         ] as [NSAttributedString.Key : Any]
     }
     

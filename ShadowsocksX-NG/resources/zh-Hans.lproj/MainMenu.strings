@@ -1,0 +1,117 @@
+
+/* Class = "NSMenu"; title = "ShadowsocksX-NG"; ObjectID = "Hob-KD-bx9"; */
+"Hob-KD-bx9.title" = "ShadowsocksX-NG";
+
+/* Class = "NSMenuItem"; title = "Shadowsocks: On"; ObjectID = "fzk-mE-CEV"; */
+"fzk-mE-CEV.title" = "Shadowsocks: On";
+
+/* Class = "NSMenuItem"; title = "Turn ShadowsocksX On"; ObjectID = "GSu-Tf-StS"; */
+"GSu-Tf-StS.title" = "打开ShadowsocksX";
+
+/* Class = "NSMenuItem"; title = "Auto Mode By PAC"; ObjectID = "r07-Gu-aEz"; */
+"r07-Gu-aEz.title" = "PAC自动模式";
+
+/* Class = "NSMenuItem"; title = "White List Mode"; ObjectID = "RvZ-Zn-29U"; */
+"RvZ-Zn-29U.title" = "白名单模式";
+
+/* Class = "NSMenuItem"; title = "Global Mode"; ObjectID = "Mw3-Jm-eXA"; */
+"Mw3-Jm-eXA.title" = "全局模式";
+
+/* Class = "NSMenuItem"; title = "Manual Mode"; ObjectID = "8PR-gs-c5N"; */
+"8PR-gs-c5N.title" = "手动模式";
+
+/* Class = "NSMenuItem"; title = "ACL Mode"; ObjectID = "Yub-b0-bni"; */
+"Yub-b0-bni.title" = "ACL模式";
+
+/* Class = "NSMenu"; title = "ACL Mode"; ObjectID = "tEB-59-fCx"; */
+"tEB-59-fCx.title" = "ACL模式";
+
+/* Class = "NSMenuItem"; title = "ACL Auto"; ObjectID = "sDG-YV-yuQ"; */
+"sDG-YV-yuQ.title" = "ACL自动";
+
+/* Class = "NSMenuItem"; title = "Proxy Back China"; ObjectID = "lam-el-r4I"; */
+"lam-el-r4I.title" = "代理大陆IP";
+
+/* Class = "NSMenuItem"; title = "Servers"; ObjectID = "u5M-hQ-VSc"; */
+"u5M-hQ-VSc.title" = "服务器列表";
+
+/* Class = "NSMenu"; title = "Servers"; ObjectID = "9Y1-db-3HK"; */
+"9Y1-db-3HK.title" = "服务器列表";
+
+/* Class = "NSMenuItem"; title = "⚙ Server Settings"; ObjectID = "M5r-E7-44f"; */
+"M5r-E7-44f.title" = "⚙ 服务器设置";
+
+/* Class = "NSMenuItem"; title = "Subscribers"; ObjectID = "y1d-RF-NOg"; */
+"y1d-RF-NOg.title" = "服务器订阅";
+
+/* Class = "NSMenuItem"; title = "⚙ Edit Subscribe Feed"; ObjectID = "h7h-M2-FDZ"; */
+"h7h-M2-FDZ.title" = "⚙ 订阅设置";
+
+/* Class = "NSMenuItem"; title = "Update Subscription With Proxy"; ObjectID = "Dme-gv-yDg"; */
+"Dme-gv-yDg.title" = "更新订阅（通过代理）";
+
+/* Class = "NSMenuItem"; title = "Update Subscription Without Proxy"; ObjectID = "AC9-IX-pzM"; */
+"AC9-IX-pzM.title" = "更新订阅（不通过代理）";
+
+/* Class = "NSMenuItem"; title = "Import/Export"; ObjectID = "ALY-Ox-N1x"; */
+"ALY-Ox-N1x.title" = "导入/导出";
+
+/* Class = "NSMenu"; title = "Import/Export"; ObjectID = "3db-Kd-VwF"; */
+"3db-Kd-VwF.title" = "导入/导出";
+
+/* Class = "NSMenuItem"; title = "Scan QR Code From Screen"; ObjectID = "7zm-wP-7va"; */
+"7zm-wP-7va.title" = "扫描屏幕上的二维码";
+
+/* Class = "NSMenuItem"; title = "Import Server URLs From Pasteboard"; ObjectID = "BQT-kh-cxJ"; */
+"BQT-kh-cxJ.title" = "从剪贴板导入服务器配置链接";
+
+/* Class = "NSMenuItem"; title = "Import Bunch Json File"; ObjectID = "15a-D6-JJo"; */
+"15a-D6-JJo.title" = "导入服务器配置文件";
+
+/* Class = "NSMenuItem"; title = "Show QR Code For Current Server"; ObjectID = "QUb-tM-Aok"; */
+"QUb-tM-Aok.title" = "显示当前服务器的二维码";
+
+/* Class = "NSMenuItem"; title = "Show Bunch Json Example File"; ObjectID = "D8D-F7-IMv"; */
+"D8D-F7-IMv.title" = "导出示例服务器配置";
+
+/* Class = "NSMenuItem"; title = "Export All Server To Json"; ObjectID = "6dB-Bx-QzE"; */
+"6dB-Bx-QzE.title" = "导出全部服务器配置";
+
+/* Class = "NSMenuItem"; title = "network"; ObjectID = "oqw-K5-voY"; */
+"oqw-K5-voY.title" = "网络";
+
+/* Class = "NSMenu"; title = "network"; ObjectID = "741-tK-qhX"; */
+"741-tK-qhX.title" = "网络";
+
+/* Class = "NSMenuItem"; title = "Show Network Speed"; ObjectID = "Zuf-Rl-yEi"; */
+"Zuf-Rl-yEi.title" = "显示网速";
+
+/* Class = "NSMenuItem"; title = "Test Connection Delay"; ObjectID = "O6b-Tr-fvC"; */
+"O6b-Tr-fvC.title" = "服务器延迟测试";
+
+/* Class = "NSMenuItem"; title = "HTTP Proxy Export Line To Pasteboard"; ObjectID = "Lod-lA-Gfa"; */
+"Lod-lA-Gfa.title" = "复制终端代理命令";
+
+/* Class = "NSMenuItem"; title = "⚙ Setting"; ObjectID = "hgj-kn-XcH"; */
+"hgj-kn-XcH.title" = "⚙ 应用设置";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "5PC-XX-qij"; */
+"5PC-XX-qij.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "Tob-tq-qiX"; */
+"Tob-tq-qiX.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Show Logs"; ObjectID = "FhN-hv-jX3"; */
+"FhN-hv-jX3.title" = "显示日志";
+
+/* Class = "NSMenuItem"; title = "Feedback"; ObjectID = "zvv-36-bAg"; */
+"zvv-36-bAg.title" = "问题反馈";
+
+/* Class = "NSMenuItem"; title = "Check Updates"; ObjectID = "v33-t5-s50"; */
+"v33-t5-s50.title" = "检查更新";
+
+/* Class = "NSMenuItem"; title = "About"; ObjectID = "17d-3X-vV4"; */
+"17d-3X-vV4.title" = "关于";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "vJS-JW-byz"; */
+"vJS-JW-byz.title" = "退出";

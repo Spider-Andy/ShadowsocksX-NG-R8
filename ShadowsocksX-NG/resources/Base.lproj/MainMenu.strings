@@ -1,0 +1,117 @@
+
+/* Class = "NSMenu"; title = "ShadowsocksX-NG"; ObjectID = "Hob-KD-bx9"; */
+"Hob-KD-bx9.title" = "ShadowsocksX-NG";
+
+/* Class = "NSMenuItem"; title = "Shadowsocks: On"; ObjectID = "fzk-mE-CEV"; */
+"fzk-mE-CEV.title" = "Shadowsocks: On";
+
+/* Class = "NSMenuItem"; title = "Turn ShadowsocksX On"; ObjectID = "GSu-Tf-StS"; */
+"GSu-Tf-StS.title" = "Turn ShadowsocksX On";
+
+/* Class = "NSMenuItem"; title = "Auto Mode By PAC"; ObjectID = "r07-Gu-aEz"; */
+"r07-Gu-aEz.title" = "Auto Mode By PAC";
+
+/* Class = "NSMenuItem"; title = "White List Mode"; ObjectID = "RvZ-Zn-29U"; */
+"RvZ-Zn-29U.title" = "White List Mode";
+
+/* Class = "NSMenuItem"; title = "Global Mode"; ObjectID = "Mw3-Jm-eXA"; */
+"Mw3-Jm-eXA.title" = "Global Mode";
+
+/* Class = "NSMenuItem"; title = "Manual Mode"; ObjectID = "8PR-gs-c5N"; */
+"8PR-gs-c5N.title" = "Manual Mode";
+
+/* Class = "NSMenuItem"; title = "ACL Mode"; ObjectID = "Yub-b0-bni"; */
+"Yub-b0-bni.title" = "ACL Mode";
+
+/* Class = "NSMenu"; title = "ACL Mode"; ObjectID = "tEB-59-fCx"; */
+"tEB-59-fCx.title" = "ACL Mode";
+
+/* Class = "NSMenuItem"; title = "ACL Auto"; ObjectID = "sDG-YV-yuQ"; */
+"sDG-YV-yuQ.title" = "ACL Auto";
+
+/* Class = "NSMenuItem"; title = "Proxy Back China"; ObjectID = "lam-el-r4I"; */
+"lam-el-r4I.title" = "Proxy Back China";
+
+/* Class = "NSMenuItem"; title = "Servers"; ObjectID = "u5M-hQ-VSc"; */
+"u5M-hQ-VSc.title" = "Servers";
+
+/* Class = "NSMenu"; title = "Servers"; ObjectID = "9Y1-db-3HK"; */
+"9Y1-db-3HK.title" = "Servers";
+
+/* Class = "NSMenuItem"; title = "⚙ Server Settings"; ObjectID = "M5r-E7-44f"; */
+"M5r-E7-44f.title" = "⚙ Server Settings";
+
+/* Class = "NSMenuItem"; title = "Subscribers"; ObjectID = "y1d-RF-NOg"; */
+"y1d-RF-NOg.title" = "Subscribers";
+
+/* Class = "NSMenuItem"; title = "⚙ Edit Subscribe Feed"; ObjectID = "h7h-M2-FDZ"; */
+"h7h-M2-FDZ.title" = "⚙ Edit Subscribe Feed";
+
+/* Class = "NSMenuItem"; title = "Update Subscription With Proxy"; ObjectID = "Dme-gv-yDg"; */
+"Dme-gv-yDg.title" = "Update Subscription With Proxy";
+
+/* Class = "NSMenuItem"; title = "Update Subscription Without Proxy"; ObjectID = "AC9-IX-pzM"; */
+"AC9-IX-pzM.title" = "Update Subscription Without Proxy";
+
+/* Class = "NSMenuItem"; title = "Import/Export"; ObjectID = "ALY-Ox-N1x"; */
+"ALY-Ox-N1x.title" = "Import/Export";
+
+/* Class = "NSMenu"; title = "Import/Export"; ObjectID = "3db-Kd-VwF"; */
+"3db-Kd-VwF.title" = "Import/Export";
+
+/* Class = "NSMenuItem"; title = "Scan QR Code From Screen"; ObjectID = "7zm-wP-7va"; */
+"7zm-wP-7va.title" = "Scan QR Code From Screen";
+
+/* Class = "NSMenuItem"; title = "Import Server URLs From Pasteboard"; ObjectID = "BQT-kh-cxJ"; */
+"BQT-kh-cxJ.title" = "Import Server URLs From Pasteboard";
+
+/* Class = "NSMenuItem"; title = "Import Bunch Json File"; ObjectID = "15a-D6-JJo"; */
+"15a-D6-JJo.title" = "Import Bunch Json File";
+
+/* Class = "NSMenuItem"; title = "Show QR Code For Current Server"; ObjectID = "QUb-tM-Aok"; */
+"QUb-tM-Aok.title" = "Show QR Code For Current Server";
+
+/* Class = "NSMenuItem"; title = "Show Bunch Json Example File"; ObjectID = "D8D-F7-IMv"; */
+"D8D-F7-IMv.title" = "Show Bunch Json Example File";
+
+/* Class = "NSMenuItem"; title = "Export All Server To Json"; ObjectID = "6dB-Bx-QzE"; */
+"6dB-Bx-QzE.title" = "Export All Server To Json";
+
+/* Class = "NSMenuItem"; title = "network"; ObjectID = "oqw-K5-voY"; */
+"oqw-K5-voY.title" = "Export";
+
+/* Class = "NSMenu"; title = "network"; ObjectID = "741-tK-qhX"; */
+"741-tK-qhX.title" = "Export";
+
+/* Class = "NSMenuItem"; title = "Show Network Speed"; ObjectID = "Zuf-Rl-yEi"; */
+"Zuf-Rl-yEi.title" = "Show Network Speed";
+
+/* Class = "NSMenuItem"; title = "Test Connection Delay"; ObjectID = "O6b-Tr-fvC"; */
+"O6b-Tr-fvC.title" = "Test Connection Delay";
+
+/* Class = "NSMenuItem"; title = "HTTP Proxy Export Line To Pasteboard"; ObjectID = "Lod-lA-Gfa"; */
+"Lod-lA-Gfa.title" = "HTTP Proxy Export Line To Pasteboard";
+
+/* Class = "NSMenuItem"; title = "⚙ Setting"; ObjectID = "hgj-kn-XcH"; */
+"hgj-kn-XcH.title" = "⚙ Setting";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "5PC-XX-qij"; */
+"5PC-XX-qij.title" = "Help";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "Tob-tq-qiX"; */
+"Tob-tq-qiX.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Show Logs"; ObjectID = "FhN-hv-jX3"; */
+"FhN-hv-jX3.title" = "Show Logs";
+
+/* Class = "NSMenuItem"; title = "Feedback"; ObjectID = "zvv-36-bAg"; */
+"zvv-36-bAg.title" = "Feedback";
+
+/* Class = "NSMenuItem"; title = "Check Updates"; ObjectID = "v33-t5-s50"; */
+"v33-t5-s50.title" = "Check Updates";
+
+/* Class = "NSMenuItem"; title = "About"; ObjectID = "17d-3X-vV4"; */
+"17d-3X-vV4.title" = "About";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "vJS-JW-byz"; */
+"vJS-JW-byz.title" = "Quit";

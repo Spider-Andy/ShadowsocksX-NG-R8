@@ -1,0 +1,355 @@
+
+
+
+
+
+
+/*
+ * SHARED STRINGS
+ */
+
+/*
+ * ./ShadowsocksX-NG/PACUtils.swift
+ */
+
+"PAC has been updated by latest GFW List." = "已经使用最新的 GFW List 更新PAC";
+
+"Failed to download latest GFW List." = "下载 GFW List 失败";
+
+"White List update succeed." = "白名单更新成功";
+
+"Black List update succeed." = "黑名单更新成功";
+
+"BackCHN List update succeed." = "国内代理名单更新成功";
+
+"Failed to download latest White List update succeed." = "下载白名单失败";
+
+"Failed to download latest Black List update succeed." = "下载黑名单失败";
+
+"Failed to download latest BackCHN List update succeed." = "下载国内代理名单失败";
+
+/*
+ * ./ShadowsocksX-NG/BunchImportUtils.swift
+ */
+
+"Import Server Profile succeed!" = "导入服务器配置文件成功!";
+
+"Successful import \(configsCount) items" = "成功导入 \(configsCount) 个纪录";
+
+"Import Server Profile failed!" = "导入服务器配置文件失败!";
+
+"Invalid config file!" = "配置文件无效!";
+
+/*
+ * ./ShadowsocksX-NG/AppDelegate.swift
+ */
+
+"Add Shadowsocks Server Profile" = "已添加新Shaodwsocks服务器配置";
+
+"By scan QR Code" = "通过扫描二维码";
+
+"By Handle SS URL" = "处理 SS URL";
+
+" Encription Method: \(profile.method)" = " 加密方法: \(profile.method)";
+
+"repeated" = "个节点重复";
+
+"Current server profile is not valid." = "当前服务器配置无效";
+
+"No current server profile." = "未设置当前服务器配置";
+
+"Proxy - Auto By PAC" = "代理 - PAC自动";
+
+"Proxy - Global" = "代理 - 全局";
+
+"Proxy - Manual" = "代理 - 手动";
+
+"Proxy - White List" = "代理 - 白名单";
+
+"Proxy - White List Domain" = "代理 - 域名白名单";
+
+"Proxy - White List IP" = "代理 - IP白名单";
+
+"Shadowsocks: On" = "Shadowsocks: On";
+
+"Turn Shadowsocks Off" = "关闭 Shadowsocks";
+
+"Shadowsocks: Off" = "Shadowsocks: Off";
+
+"Turn Shadowsocks On" = "打开 Shadowsocks";
+
+"Check Updates" = "检查更新";
+
+"Check Updates At Launch" = "打开时检查更新";
+
+"Proxy Back China" = "代理大陆IP";
+
+"ACL Mode" = "ACL模式";
+
+"ACL Mode" = "ACL模式";
+
+"ACL Auto" = "ACL自动";
+
+/*
+ * ./ShadowsocksX-NG/PreferencesWindowController.swift
+ */
+
+"New Server" = "新服务器";
+
+/*
+ * ./ShadowsocksX-NG/UserRulesController.swift
+ */
+
+"PAC has been updated by User Rules." = "PAC已由用户规则更新";
+
+"It's failed to update PAC by User Rules." = "按用户规则更新PAC失败";
+
+"Servers" = "服务器";
+
+"Export Command Copied." = "命令已复制至剪贴板";
+
+"Export Command Copied Failed." = "命令复制至剪贴板失败";
+
+"Failed to Add Server Profile" = "添加服务器配置失败";
+
+"Address can not be recognized" = "未找到有效的服务器配置";
+
+/*
+ * MainMenu.xib
+ */
+
+"Import Bunch Json File" = "导入服务器配置文件";
+
+"Scan QR Code From Screen" = "扫描屏幕上的二维码";
+
+"Manual Mode" = "手动模式";
+
+"Servers" = "服务器列表";
+
+"Import/Export" = "导入/导出";
+
+"Import Server URLs From Pasteboard" = "从剪贴板导入服务器配置链接";
+
+"Close" = "关闭";
+
+"Turn ShadowsocksX On" = "打开ShadowsocksX";
+
+"ShadowsocksX-NG" = "ShadowsocksX-NG";
+
+"Show Logs" = "显示日志";
+
+"About" = "关于";
+
+"HTTP Proxy Export Line To Pasteboard" = "复制终端代理命令";
+
+"⚙ Server Settings" = "⚙ 服务器设置";
+
+"Global Mode" = "全局模式";
+
+"Show QR Code For Current Server" = "显示当前服务器的二维码";
+
+"Subscribers" = "服务器订阅";
+
+"Update Subscription With Proxy" = "更新订阅（通过代理）";
+
+"⚙ Edit Subscribe Feed" = "⚙ 订阅设置";
+
+"White List Mode" = "白名单模式";
+
+"Feedback" = "问题反馈";
+
+"ACL Mode" = "ACL模式";
+
+"Shadowsocks: On" = "Shadowsocks: On";
+
+"Fixed Width" = "固定宽度";
+
+"⚙ Application Setting" = "⚙ 应用设置";
+
+"Export All Server To Json" = "导出全部服务器配置";
+
+"Show Bunch Json Example File" = "导出示例服务器配置";
+
+"Proxy Back China" = "代理大陆IP";
+
+"Test Connection Delay" = "服务器延迟测试";
+
+"Auto Mode By PAC" = "PAC自动模式";
+
+"ACL Auto" = "ACL自动";
+
+"ACL Mode" = "ACL模式";
+
+"Servers" = "服务器列表";
+
+"Update Subscription Without Proxy" = "更新订阅（不通过代理）";
+
+"Quit" = "退出";
+
+"Check Updates" = "检查更新";
+
+"Check Updates" = "检查更新";
+
+"Help" = "帮助";
+
+"⚙ Setting" = "⚙ 应用设置";
+
+"network" = "网络";
+
+
+/*
+ * SettingsWindowController.xib
+ */
+
+"Enable Verbose Mode" = "启用 Verbose 模式";
+
+"Local PAC Listen Address:" = "本地 PAC 监听地址:";
+
+"Other" = "其他设置";
+
+"Update" = "规则设置";
+
+"Advanced" = "高级设置";
+
+"Switch To ACL Auto Mode:" = "ACL自动模式快捷键:";
+
+"Save" = "保存";
+
+"HTTP Proxy Enable" = "开启 HTTP 代理";
+
+"Timeout:" = "超时:";
+
+"Auto Configure" = "自动设置";
+
+"Ascending By Delay" = "延迟按升序排序";
+
+"Setting" = "应用设置";
+
+"Local Socks5 Listen Address:" = "本地 Socks5 监听地址:";
+
+"Local Socks5 Listen Port:" = "本地 Socks5 监听端口:";
+
+"HTTP" = "HTTP";
+
+"Login Options :" = "登录选项 :";
+
+"HTTP Proxy Listen Port:" = "HTTP 代理监听端口:";
+
+"Enable Udp Replay" = "开启 Udp Replay";
+
+"Auto Update Subscription With Proxy" = "通过代理自动更新订阅";
+
+"Servers List Show Server And Port" = "服务器列表显示服务器与端口";
+
+"Switch To Manual Mode:" = "手动模式快捷键:";
+
+"Other Options :" = "其它选项 :";
+
+"Open Servers List Pro View" = "开启服务器列表Pro视图";
+
+"Switch To Global Mode:" = "全局模式快捷键:";
+
+"HTTP Proxy Listen Address:" = "HTTP 代理监听地址:";
+
+"Don't change these preferences if you have no idea what they are." = "如果你不明白这些选项的作用，请不要修改！";
+
+"Switch To PAC Mode:" = "PAC模式快捷键:";
+
+"Update Subscribe At Launch" = "打开后自动更新订阅";
+
+"Connect At Launch" = "打开后自动连接";
+
+"ACL White List URL:" = "ACL 白名单更新地址:";
+
+"ACL Back China URL:" = "ACL 国内代理名单更新地址:";
+
+"Bypass proxy settings for these Hosts & Domains:" = "忽略这些主机与域的代理设置:";
+
+"Switch To WhiteList Mode:" = "白名单模式快捷键:";
+
+"Speed ​​Test After Subscription" = "更新订阅后自动测试延迟";
+
+"Follow Global Mode" = "跟随全局模式";
+
+"Hardware" = "系统设置";
+
+"Network Speed Test Options :" = "网络延迟测试选项 :";
+
+"Save" = "保存";
+
+"Remove Node After Delete Subscription" = "删除订阅时删除相应节点";
+
+"Advanced" = "高级设置";
+
+"Check Updates At Launch" = "打开后自动检查更新";
+
+"Seconds" = "秒";
+
+"Shortcuts Options :" = "快捷键选项 :";
+
+"Show Network Speed" = "显示网速";
+
+"Toggle Shadowsocks On/Off:" = "打开/关闭 Shadowsocks快捷键:";
+
+"PAC GFW List URL:" = "PAC GFW List 更新地址:";
+
+"Delay Test Method" = "延迟测试方式";
+
+"Switch To Proxy Back China Mode:" = "代理大陆IP快捷键:";
+
+"Fixed Network Speed View Width" = "固定网速视图宽度";
+
+"Launch At Login" = "登录后自动启动";
+
+"General" = "常规设置";
+
+"Local PAC Listen Port:" = "本地 PAC 监听端口:";
+
+"ACL Auto List URL:" = "ACL 黑名单更新地址:";
+
+/*
+ * PreferencesWindowController.xib
+ */
+
+"Text" = "Text:";
+
+"Server Preferences" = "服务器设置";
+
+"Box" = "Box";
+
+":" = ":";
+
+"Remarks:" = "备注:";
+
+"SSR Settings (Left empty if not sure what it is)" = "SSR设置，不清楚请留空";
+
+"Obfs" = "混淆:";
+
+"Protocol Param" = "协议参数:";
+
+"Obfs Param" = "混淆参数:";
+
+"Cancel" = "取消";
+
+"Password:" = "密码:";
+
+"Encryption:" = "加密方法:";
+
+"Protocol:" = "协议";
+
+"Duplicate" = "复制";
+
+"Copy URL to Clipboard" = "复制服务器URL到剪贴板";
+
+"Address:" = "地址:";
+
+"OK" = "确定";
+
+"Obfs:" = "协议:";
+
+"Protocol:" = "混淆:";
+
+"Obfs Param:" = "混淆参数:";
+
+"Group:" = "分组:";
+

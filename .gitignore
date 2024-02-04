@@ -71,3 +71,4 @@ Carthage/Build
 package.sh
 dmg-releases/
 
+.vscode

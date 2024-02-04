@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -32,19 +32,19 @@
         <window title="Setting" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="525" height="404"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="contentRect" x="196" y="240" width="606" height="404"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1728" height="1079"/>
             <view key="contentView" id="se5-gp-TjO">
-                <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <tabView type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="l54-v1-CEC">
-                        <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                        <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="General" identifier="General" id="uNf-rx-gUG">
                                 <view key="view" id="BR0-8r-vxC">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-oI-teb">
@@ -235,7 +235,7 @@
                             </tabViewItem>
                             <tabViewItem label="Advanced" identifier="Advanced" id="89p-8l-Uxg">
                                 <view key="view" id="QDJ-cG-wmh">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yjm-mk-BGc">
@@ -434,7 +434,7 @@ DQ
                             </tabViewItem>
                             <tabViewItem label="HTTP" identifier="HTTP" id="MFd-Rl-0zu">
                                 <view key="view" id="poh-rY-hB6">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFP-yX-l3b">
@@ -535,24 +535,24 @@ DQ
                             </tabViewItem>
                             <tabViewItem label="Hardware" identifier="Hardware" id="Yi7-u3-2ju">
                                 <view key="view" id="2iF-or-7r3">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlY-jk-nE1">
                                             <rect key="frame" x="59" y="195" width="406" height="154"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <clipView key="contentView" ambiguous="YES" id="Yw4-Zl-pfX">
+                                            <clipView key="contentView" id="Yw4-Zl-pfX">
                                                 <rect key="frame" x="1" y="1" width="404" height="152"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
-                                                    <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" id="ZH6-U6-ROy">
+                                                    <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" id="ZH6-U6-ROy">
                                                         <rect key="frame" x="0.0" y="0.0" width="404" height="152"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn width="401" minWidth="40" maxWidth="1000" id="cFZ-3W-lSb">
+                                                            <tableColumn width="363" minWidth="40" maxWidth="1000" id="cFZ-3W-lSb">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -604,11 +604,11 @@ DQ
                                         <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huc-Xj-Jhr">
                                             <rect key="frame" x="59" y="61" width="406" height="89"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="zqN-2z-R4u">
+                                            <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="zqN-2z-R4u">
                                                 <rect key="frame" x="0.0" y="0.0" width="391" height="89"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
-                                                    <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="wF7-r5-Hji">
+                                                    <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="wF7-r5-Hji">
                                                         <rect key="frame" x="0.0" y="0.0" width="391" height="89"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -654,7 +654,7 @@ DQ
                             </tabViewItem>
                             <tabViewItem label="Rule" identifier="Rule" id="dKi-ch-l5g">
                                 <view key="view" id="N64-OG-9kX">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xL0-z0-ZvD">
@@ -782,11 +782,11 @@ DQ
                                         <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-4q-QeI">
                                             <rect key="frame" x="20" y="61" width="488" height="115"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="WBe-Pm-IQv">
+                                            <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="WBe-Pm-IQv">
                                                 <rect key="frame" x="0.0" y="0.0" width="473" height="115"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
-                                                    <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="GUj-wj-P4C">
+                                                    <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="GUj-wj-P4C">
                                                         <rect key="frame" x="0.0" y="0.0" width="473" height="115"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -842,7 +842,7 @@ DQ
                             </tabViewItem>
                             <tabViewItem label="Other" identifier="Other" id="bC1-aW-nxd">
                                 <view key="view" id="Qdh-Ja-Eg9">
-                                    <rect key="frame" x="0.0" y="0.0" width="525" height="404"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="606" height="404"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6V4-T2-9dt">
@@ -990,6 +990,8 @@ DQ
             <toolbar key="toolbar" implicitIdentifier="D7015F34-C027-429C-940E-32A37759EE6B" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconAndLabel" sizeMode="regular" id="26f-Dq-ri9">
                 <allowedToolbarItems>
                     <toolbarItem implicitItemIdentifier="0F065718-7F7B-4558-84B0-7A74B8F8AF88" explicitItemIdentifier="General" label="General" paletteLabel="General" tag="-1" image="NSPreferencesGeneral" selectable="YES" id="w0N-kL-X0c">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="kgN-JH-88S"/>
                         </connections>
@@ -997,26 +999,36 @@ DQ
                     <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="1SL-uN-o7Z"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="v9X-T4-tfD"/>
                     <toolbarItem implicitItemIdentifier="20667A16-FBAB-459E-9094-87ABC9B66795" explicitItemIdentifier="Advanced" label="Advanced" paletteLabel="Advanced" tag="-1" image="NSAdvanced" selectable="YES" id="kbd-0t-ip1">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="XUu-Jx-rA2"/>
                         </connections>
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="6CA73D5D-9BB2-495A-8658-D0A96900A764" explicitItemIdentifier="HTTP" label="HTTP" paletteLabel="HTTP" tag="-1" image="NSBonjour" selectable="YES" id="UbZ-Ci-teR">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="Zux-Uh-VZH"/>
                         </connections>
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="769754FE-BA0C-4106-B8CE-16C0A1ACB5E3" explicitItemIdentifier="Rule" label="Rule" paletteLabel="Rule" tag="-1" image="NSEveryone" selectable="YES" id="7bq-Kd-ZzF">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="F2K-jj-knT"/>
                         </connections>
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="23E00532-75A5-4908-BBD8-0CD96E2A9F04" explicitItemIdentifier="Hardware" label="System" paletteLabel="System" tag="-1" image="NSComputer" selectable="YES" id="ixm-C5-Vp1">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="wEA-rP-AFe"/>
                         </connections>
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="01454139-F852-40F4-BF84-9A6B272B3615" explicitItemIdentifier="Other" label="Other" paletteLabel="Other" tag="-1" image="NSInfo" selectable="YES" id="63Z-89-8Hk">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="toolbarAction:" target="-2" id="ZcB-7T-5Ep"/>
                         </connections>
@@ -1035,7 +1047,7 @@ DQ
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
             </connections>
-            <point key="canvasLocation" x="161.5" y="214"/>
+            <point key="canvasLocation" x="202" y="214"/>
         </window>
         <userDefaultsController representsSharedInstance="YES" id="WMo-Q4-0Pp"/>
         <numberFormatter formatterBehavior="default10_4" usesGroupingSeparator="NO" formatWidth="-1" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="42" id="lbb-72-ff1" userLabel="Timeout Number Formatter">

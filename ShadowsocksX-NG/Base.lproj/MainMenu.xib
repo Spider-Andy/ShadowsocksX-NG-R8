@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -19,16 +19,14 @@
                 <outlet property="ACLModeMenuItem" destination="Yub-b0-bni" id="e0w-Td-aE9"/>
                 <outlet property="RunningStatusMenuItem" destination="fzk-mE-CEV" id="R4x-gK-Qcw"/>
                 <outlet property="autoModeMenuItem" destination="r07-Gu-aEz" id="9aH-pQ-Rgi"/>
-                <outlet property="connectionDelayTestMenuItem" destination="q2r-Fr-g0n" id="gOE-gQ-cYS"/>
                 <outlet property="copyHttpProxyExportCmdLineMenuItem" destination="Lod-lA-Gfa" id="R2y-sp-Mej"/>
-                <outlet property="fixedWidth" destination="hcf-sD-udd" id="SoW-fQ-fYj"/>
                 <outlet property="globalModeMenuItem" destination="Mw3-Jm-eXA" id="ar5-Yx-3ze"/>
                 <outlet property="manualModeMenuItem" destination="8PR-gs-c5N" id="9qz-mU-5kt"/>
                 <outlet property="runningStatusMenuItem" destination="fzk-mE-CEV" id="Vwm-Rg-Ykn"/>
                 <outlet property="serversMenuItem" destination="u5M-hQ-VSc" id="8gp-SY-Y4U"/>
                 <outlet property="serversPreferencesMenuItem" destination="M5r-E7-44f" id="voe-SX-k6a"/>
-                <outlet property="speedMenu" destination="yeJ-HT-sBl" id="fYv-Vc-e6P"/>
                 <outlet property="statusMenu" destination="Hob-KD-bx9" id="Z0D-Ny-SwF"/>
+                <outlet property="switchNetworkSpeedDisplayItem" destination="Zuf-Rl-yEi" id="ip2-d5-Nh2"/>
                 <outlet property="toggleRunningMenuItem" destination="GSu-Tf-StS" id="XHw-pU-nCa"/>
                 <outlet property="whiteListModeMenuItem" destination="RvZ-Zn-29U" id="2v5-Bd-EDj"/>
             </connections>
@@ -173,11 +171,24 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Test Connection Delay" id="q2r-Fr-g0n">
+                <menuItem title="network" id="oqw-K5-voY">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="connectionDelayTest:" target="Voe-Tx-rLC" id="1Sn-Bi-8Np"/>
-                    </connections>
+                    <menu key="submenu" title="network" id="741-tK-qhX">
+                        <items>
+                            <menuItem title="Show Network Speed" id="Zuf-Rl-yEi" propertyAccessControl="none">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="switchNetworkSpeedDisplay:" target="Voe-Tx-rLC" id="EZo-Bg-bNp"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Test Connection Delay" id="O6b-Tr-fvC">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="connectionDelayTest:" target="Voe-Tx-rLC" id="IXd-z8-eIa"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                 </menuItem>
                 <menuItem title="HTTP Proxy Export Line To Pasteboard" id="Lod-lA-Gfa">
                     <modifierMask key="keyEquivalentModifierMask"/>
@@ -230,25 +241,7 @@
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="140" y="152"/>
-        </menu>
-        <menu id="yeJ-HT-sBl">
-            <items>
-                <menuItem title="Fixed Width" id="hcf-sD-udd">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="fixedWidth:" target="Voe-Tx-rLC" id="ruC-kN-qB0"/>
-                    </connections>
-                </menuItem>
-                <menuItem isSeparatorItem="YES" id="Qxe-pa-Yif"/>
-                <menuItem title="Close" id="GON-fS-emF">
-                    <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="closeSpeedItem:" target="Voe-Tx-rLC" id="RFE-5J-yhl"/>
-                    </connections>
-                </menuItem>
-            </items>
-            <point key="canvasLocation" x="-220" y="17"/>
+            <point key="canvasLocation" x="140" y="162.5"/>
         </menu>
     </objects>
 </document>

@@ -18,8 +18,7 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
     
     // MARK: Outlets
     @IBOutlet weak var statusMenu: NSMenu!
-    @IBOutlet weak var speedMenu: NSMenu!
-    
+
     @IBOutlet weak var runningStatusMenuItem: NSMenuItem!
     @IBOutlet weak var toggleRunningMenuItem: NSMenuItem!
     @IBOutlet weak var autoModeMenuItem: NSMenuItem!
@@ -29,16 +28,17 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
     @IBOutlet weak var ACLModeMenuItem: NSMenuItem!
     @IBOutlet weak var ACLAutoModeMenuItem: NSMenuItem!
     @IBOutlet weak var ACLBackChinaMenuItem: NSMenuItem!
+    @IBOutlet weak var switchNetworkSpeedDisplayItem: NSMenuItem!
     
     @IBOutlet weak var serversMenuItem: NSMenuItem!
     @IBOutlet var connectionDelayTestMenuItem: NSMenuItem!
     @IBOutlet var serversPreferencesMenuItem: NSMenuItem!
     @IBOutlet weak var copyHttpProxyExportCmdLineMenuItem: NSMenuItem!
-            
-    @IBOutlet weak var fixedWidth: NSMenuItem!
     
+    @IBOutlet weak var fixedWidth: NSMenuItem!
+
     // MARK: Variables
-    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    var statusItemView : StatusItemView!
     var speedItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     var speedMonitor:NetSpeedMonitor?
     var globalSubscribeFeed: Subscribe!
@@ -83,7 +83,6 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
             USERDEFAULTS_AUTO_UPDATE_SUBSCRIBE:false,
             USERDEFAULTS_AUTO_UPDATE_SUBSCRIBE_WITH_PROXY:false,
             USERDEFAULTS_SPEED_TEST_AFTER_SUBSCRIPTION:true,
-            USERDEFAULTS_FIXED_NETWORK_SPEED_VIEW_WIDTH:false,
             USERDEFAULTS_REMOVE_NODE_AFTER_DELETE_SUBSCRIPTION:false,
             USERDEFAULTS_SERVERS_LIST_SHOW_SERVER_AND_PORT:true,
             USERDEFAULTS_PROXY_EXCEPTIONS: "127.0.0.1,localhost,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,timestamp.apple.com"
@@ -163,11 +162,14 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
         }
         
         DispatchQueue.main.async {
-            self.statusItem.image = NSImage(named: "menu_icon")
-            self.statusItem.image?.isTemplate = true
-            self.statusItem.menu = self.statusMenu
+            self.statusItemView = StatusItemView.create()
+            self.statusItemView.setMenu(menu: self.statusMenu)
+            self.statusItemView.updateSize(width:  80)
+            self.statusItemView.showSpeedContainer(show: true)
             
-            self.setUpMenu(defaults.bool(forKey: USERDEFAULTS_ENABLE_SHOW_SPEED))
+            let isShowSpeed = defaults.bool(forKey: USERDEFAULTS_ENABLE_SHOW_SPEED)
+            self.switchNetworkSpeedDisplayItem.state = NSControl.StateValue(rawValue: isShowSpeed ? 1 : 0)
+            self.setUpMenu(isShowSpeed)
             self.refresh()
             
             Shortcuts.bindShortcuts()
@@ -489,6 +491,7 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
         ACLBackChinaMenuItem.state = NSControl.StateValue(rawValue: 0)
         ACLAutoModeMenuItem.state = NSControl.StateValue(rawValue: 0)
         ACLModeMenuItem.state = NSControl.StateValue(rawValue: 0)
+
         if mode == "auto" {
             autoModeMenuItem.state = NSControl.StateValue(rawValue: 1)
         } else if mode == "global" {
@@ -512,32 +515,7 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
                 whiteListModeMenuItem.state = NSControl.StateValue(rawValue: 1)
             }
         }
-        updateStatusItemUI()
-    }
-    
-    func updateStatusItemUI() {
-        let defaults = UserDefaults.standard
-        let mode = defaults.string(forKey: USERDEFAULTS_SHADOWSOCKS_RUNNING_MODE)
-        if defaults.bool(forKey: USERDEFAULTS_SHADOWSOCKS_ON) {
-            if mode == "auto" {
-                statusItem.image = NSImage(named: "menu_icon_pac")!
-            } else if mode == "global" {
-                statusItem.image = NSImage(named: "menu_icon_global")!
-            } else if mode == "manual" {
-                statusItem.image = NSImage(named: "menu_icon_manual")!
-            } else if mode == "whiteList" {
-                if UserDefaults.standard.string(forKey: USERDEFAULTS_ACL_FILE_NAME)! == "chn.acl" {
-                    statusItem.image = NSImage(named: "menu_icon_white")!
-                } else {
-                    statusItem.image = NSImage(named: "menu_icon_acl")!
-                }
-            } else {
-                statusItem.image = NSImage(named: "menu_icon")!
-            }
-        } else {
-            statusItem.image = NSImage(named: "menu_icon_disabled")!
-        }
-        statusItem.image?.isTemplate = true
+        statusItemView.updateStatusItemUI()
     }
     
     func updateMainMenu() {
@@ -556,7 +534,7 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
             toggleRunningMenuItem.title = "Turn Shadowsocks On".localized
             copyHttpProxyExportCmdLineMenuItem.isHidden = true
         }
-        updateStatusItemUI()
+        statusItemView.updateStatusItemUI()
     }
     
     //TODO:https://git.codingcafe.org/Mirrors/shadowsocks/ShadowsocksX-NG/blob/master/ShadowsocksX-NG/AppDelegate.swift
@@ -650,18 +628,6 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
     
     func setUpMenu(_ showSpeed:Bool){
         if showSpeed{
-            speedItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-            speedItem.menu = speedMenu
-            if UserDefaults.standard.bool(forKey: USERDEFAULTS_FIXED_NETWORK_SPEED_VIEW_WIDTH) {
-                self.fixedSpeedItemWidth(true)
-                self.fixedWidth.state = NSControl.StateValue.on
-            } else {
-                self.fixedSpeedItemWidth(false)
-                self.fixedWidth.state = NSControl.StateValue.off
-            }
-            if let b = speedItem.button {
-                b.attributedTitle = SpeedTools.speedAttributedString(up: 0.0, down: 0.0)
-            }
             if speedMonitor == nil{
                 speedMonitor = NetSpeedMonitor()
             }
@@ -669,19 +635,17 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
                 speedTimer = Timer(timeInterval: repeatTimeinterval, repeats: true) {[weak self] (timer) in
                     guard let w = self else {return}
                     w.speedMonitor?.timeInterval(w.repeatTimeinterval, downloadAndUploadSpeed: { (down, up) in
-                        if let b = w.speedItem.button {
-                            b.attributedTitle = SpeedTools.speedAttributedString(up: up, down: down)
-                        }
+                        w.statusItemView.updateSpeedLabel(up: up, down: down)
                     })
                 }
                 RunLoop.main.add(speedTimer!, forMode: RunLoop.Mode.common)
             }
+            statusItemView.showSpeedContainer(show: showSpeed)
         }else{
-            speedItem.attributedTitle = NSAttributedString(string: "")
-            NSStatusBar.system.removeStatusItem(speedItem)
             speedTimer?.invalidate()
             speedTimer = nil
             speedMonitor = nil
+            statusItemView.showSpeedContainer(show: showSpeed)
         }
     }
     
@@ -843,25 +807,12 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
     //------------------------------------------------------------
     // MARK: Speed Item Actions
     
-    @IBAction func fixedWidth(_ sender: NSMenuItem) {
+    @IBAction func switchNetworkSpeedDisplay(_ sender: NSMenuItem) {
         sender.state = (sender.state == .on ? .off:.on)
-        let b = sender.state == .on ? true:false
-        UserDefaults.standard.setValue(b, forKey: USERDEFAULTS_FIXED_NETWORK_SPEED_VIEW_WIDTH)
+        let isShow = sender.state.rawValue == 1 ? true : false
+        UserDefaults.standard.setValue(isShow, forKey: USERDEFAULTS_ENABLE_SHOW_SPEED)
         UserDefaults.standard.synchronize()
-        self.fixedSpeedItemWidth(b)
+        self.setUpMenu(isShow)
     }
-    
-    @IBAction func closeSpeedItem(_ sender: NSMenuItem) {
-        UserDefaults.standard.setValue(false, forKey: USERDEFAULTS_ENABLE_SHOW_SPEED)
-        UserDefaults.standard.synchronize()
-        self.setUpMenu(false)
-    }
-    
-    private func fixedSpeedItemWidth(_ fixed: Bool) {
-        if fixed {
-            speedItem.length = 70
-        } else {
-            speedItem.length = NSStatusItem.variableLength
-        }
-    }
+
 }
